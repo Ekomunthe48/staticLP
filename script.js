@@ -209,8 +209,8 @@ function reply_click(clicked_id) {
 function shortChar(char) { 
 
   var newChars = char
-  if(char.length > 50) { 
-    newChars = char.slice(0,50)+" ... "
+  if(char.length > 37) { 
+    newChars = char.slice(0,37)+" ... "
   }
 
   return newChars
