@@ -3,7 +3,8 @@
 }
 
 #hubungi-kami-mobile {
-  display: none;
+  /* eko version */
+  display: none !important;
 }
 
 #closeButtonVideo {
@@ -91,6 +92,8 @@ h1#textSelamat {
 #videoButton,
 #beritaButton {
   width: 100%;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .survey-form-gender.show {
@@ -289,7 +292,7 @@ a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  height: 60px;
+  height: 80px;
   display: inline-block;
   border-radius: 7.5px;
   border-bottom-right-radius: 25px;
@@ -301,7 +304,7 @@ a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  height: 60px;
+  height: 80px;
   display: inline-block;
   border-radius: 7.5px;
   border-bottom-right-radius: 25px;
@@ -322,7 +325,7 @@ a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  height: 60px;
+  height: 80px;
   display: inline-block;
   border-radius: 7.5px;
   border-bottom-right-radius: 25px;
@@ -341,8 +344,8 @@ img {
 
 .center {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  /* top: 50%;
+  transform: translateY(-50%); */
   width: 100%;
 }
 
@@ -389,6 +392,7 @@ img {
 
   #hubungi-kami-mobile {
     display: none;
+    margin-top: 5px;
   }
 
   #hubungiKami {
@@ -485,7 +489,7 @@ img {
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 44%;
+    height: 450px;
     background-color: white;
     border-radius: 0 0 20px 20px;
   }
@@ -534,15 +538,15 @@ img {
   }
 
   #videoButton {
-    height: 40px;
+    height: 60px;
   }
 
   #bannerButton {
-    height: 40px;
+    height: 60px;
   }
 
   #beritaButton {
-    height: 40px;
+    height: 60px;
   }
 
   #videoButton img {
@@ -563,6 +567,7 @@ img {
 
   #mobile-connect-internet {
     display: block;
+    margin-top: 5px;
   }
 
   #textCountdown,
@@ -581,7 +586,8 @@ img {
   }
 
   #hubungi-kami-mobile {
-    display: block;
+    /* eko version */
+    display: block !important;
     float: right;
     width: 100%;
 

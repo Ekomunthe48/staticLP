@@ -185,8 +185,8 @@
         <div id="gridcontainer" class="mobile-background">
             <div class="row grid-row" id="top-row">
                 <!-- Logo -->
-                <!-- NEW VERSION HUBUNGI KAMI -->
-                <div class="row">
+                <!-- NEW VERSION HUBUNGI KAMI Radith-->
+                <!-- <div class="row">
                     <div class="col px-0">
                         <img id="logo-bakti-online" src="./logo.png"/>
                     </div>
@@ -198,7 +198,7 @@
                         </u>
                     </a>
                     </div>
-                </div>
+                </div> -->
                 <!-- OLD VERSION HUBUNGI KAMI -->
                 <!-- <div class="col-md-4 col-sm-4 col-xs-2" id="top-col">
                     <img id="logo-bakti-online" src="./logo.png" style="float:left" />
@@ -211,14 +211,14 @@
 
                 </div> -->
 
-                <!-- NEW VERSION ALERT-->
-                <div class="row">
+                <!-- NEW VERSION ALERT Radith-->
+                <!-- <div class="row">
                     <div id="top-alert" class="col-md-4 col-sm-4 p-0">
                         <div class="alert alert-danger my-0" style="text-align: center; font-size: 14px; font-weight:100px;">
                             JANGAN TUTUP HALAMAN INI
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- OLD VERSION ALERT-->
                 <!-- <div id="top-alert" class="col-md-4 col-sm-4">
                     <div class="alert alert-danger" style="text-align: center; font-size: 14px; font-weight:100px;">
@@ -226,8 +226,8 @@
                     </div>
                 </div> -->
 
-                <!-- Hubungi Kami -->
-                <div id="box-hubungi-kami" class="col-md-4 col-sm-4">
+                <!-- old Hubungi Kami -->
+                <!-- <div id="box-hubungi-kami" class="col-md-4 col-sm-4">
                     <a id="hubungiKami" style="float: right; padding-right: 10px;" onClick="reply_click(this.id)"
                         data-bs-toggle="modal" data-bs-target="#modalHubungi">
                         <u>
@@ -235,7 +235,36 @@
                         </u>
                     </a>
 
-                </div>
+                </div> -->
+                
+                <!-- Version Eko -->
+                    <!-- Logo -->
+                    <div class="col-md-4 col-sm-4 col-xs-2" id="top-col">
+                        <img id="logo-bakti-online" src="./logo.png" style="float:left" />
+                        <a id="hubungi-kami-mobile" style="float: right; width: 30%; text-align: right;" onClick="reply_click(this.id)"
+                            data-bs-toggle="modal" data-bs-target="#modalHubungi">
+                            <u style="text-align: right;">
+                                Hubungi Kami
+                            </u>
+                        </a>
+    
+                    </div>
+    
+                    <div id="top-alert" class="cold-md-4 col-sm-4">
+                        <div class="alert alert-danger" style="text-align: center; font-size: 14px; font-weight:100px;">
+                            JANGAN TUTUP HALAMAN INI
+                        </div>
+                    </div>
+                    <!-- Hubungi Kami -->
+                    <div id="box-hubungi-kami" class="cold-md-4 col-sm-4">
+                        <a id="hubungiKami" style="float: right; padding-right: 10px;" onClick="reply_click(this.id)"
+                            data-bs-toggle="modal" data-bs-target="#modalHubungi">
+                            <u>
+                                Hubungi Kami
+                            </u>
+                        </a>
+    
+                    </div>
             </div>
             <div class="row grid-row">
                 <div class="col-sm-6">
@@ -322,19 +351,47 @@
                             <a id="beritaButton" onClick="reply_click(this.id)" class="button" data-bs-toggle="modal"
                                 data-bs-target="#modalBerita">
                                 <div class="center">
-
-                                    <img src="./berita.svg" />
-                                    <div class="btnText">
-                                        Berita
-                                        <span id="judulBerita" title="" style="font-size: 10px;">Judul Berita</span>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img src="./berita.svg" />
+                                        </div>
+                                        <div class="col-10">
+                                            <div class="btnText">
+                                                Berita
+                                                <span id="judulBerita" title="" style="font-size: 10px;">Judul Berita</span>
+                                            </div>
+                                        </div> 
                                     </div>
                                 </div>
                             </a>
                         </div>
                     </div>
+                    <!-- <div class="row">
+                        <div id="beritaButton" onClick="reply_click(this.id)" class="col-xs-2" data-bs-toggle="modal"
+                        data-bs-target="#modalBerita">
+                            <a id="beritaButton" onClick="reply_click(this.id)" class="button" data-bs-toggle="modal"
+                            data-bs-target="#modalBerita">
+                            <div class="center">
+                                <img src="./berita.svg" />
+                                
+                            </div>
+                        </a>
+                        </div>
+                        <div class="col-xs-10">
+                            <a id="beritaButton" onClick="reply_click(this.id)" class="button" data-bs-toggle="modal"
+                            data-bs-target="#modalBerita">
+                            <div class="center">
+                                <img src="./berita.svg" />
+                                <div class="btnText">
+                                    Berita
+                                    <span id="judulBerita" title="" style="font-size: 10px;">Judul Berita</span>
+                                </div>
+                            </div>
+                        </a>
+                        </div>
+                    </div> -->
 
                 </div>
-
                 <!-- Survey -->
                 <div class="col-sm-6">
                     <!-- progress -->
@@ -480,7 +537,6 @@
                                         <label class="form-check-label" for="inlineRadio2">Menikah</label>
                                     </div>
                                 </div>
-
                             </form>
                             <div id="containerButton">
                                 <div id="contButton">
@@ -492,13 +548,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
-
             <div class="row footer">
                 <div style="text-align: left;">Copyright &copy; 2021 All Rights Reserved</div>
             </div>
